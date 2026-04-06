@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+  </head>
+  <style>
+    *{
+        text-transform:capitalize ;
+    }
+  </style>
+  <body>
+    <!-- About Me Section -->
+    <table width="100%">
+      <thead>
+        <th style="color: #166ba3"><h2>Mohamed Oraby Portfolio</h2></th>
+      </thead>
+      <tbody>
+        <tr style="color: #166ba3; text-align: center">
+          <td>Personal Web Developer</td>
+        </tr>
+        <tr style="color: #166ba3">
+          <td><b>About Me</b></td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%">
+      <tr>
+        <td style="padding-left: 10px; padding-right: 20px">
+          <img
+            style="width: 200px"
+            src="./Images/personal image.jpeg"
+            alt="Mohamed Oraby's personal photo"
+          />
+          <img
+            style="width: 200px; display: block"
+            src="/Images/Social-Media-Icons-1.jpg"
+            alt="social media links"
+          />
+        </td>
+        <td>
+          <p>
+            Hello! I am Mohamed Oraby, a passionate web developer with over 5
+            years of experience in creating innovative digital solutions. i
+            specialize in full-stack development and have akeen interst in
+            modern web technologies.
+          </p>
+          <p>
+            My journey in web development started during my university years,
+            and since then i've been continuously learning and adapting to new
+            technologies.I believe in writing clean , efficient code and
+            creating user-friendly interfaces.
+          </p>
+          <h3 style="background-color: #7dc8fa; color: white">Skills</h3>
+          <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>React, Angular, Vue.js</li>
+            <li>Node.js, Express.js</li>
+            <li>Python, Django</li>
+            <li>SQL, MongoDB</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+    <!-- Experience Timeline Section -->
+    <h3 style="color: #166ba3">Experience Timeline</h3>
+    <table width="100%" border="1">
+      <thead style="background-color: #166ba3; color: white">
+        <th>Company</th>
+        <th>logo</th>
+        <th>Role</th>
+        <th>Key Achievements</th>
+        <th>Dates</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">Starbucks</td>
+          <td rowspan="2">
+            <img
+              style="width: 100px"
+              src="/Images/starbucks logo.png"
+              alt="starbucks logo"
+            />
+          </td>
+          <td>senior full-stack developer</td>
+          <td>
+            <ul>
+              <li>lead development of web applications</li>
+              <li>mentor jonior developers</li>
+              <li>architect scalable web solutions</li>
+            </ul>
+          </td>
+          <td>jan 2023 - present</td>
+        </tr>
+        <tr>
+          <td>full-stack developer</td>
+          <td>
+            <ul>
+              <li>develop responsive web applications</li>
+              <li>Collaborated with design team</li>
+              <li>optimized web performance</li>
+            </ul>
+          </td>
+          <td>2021 - 2023</td>
+        </tr>
+        <tr>
+          <td>Vodafone</td>
+          <td>
+            <img
+              style="width: 100px"
+              src="/Images/vodafon logo.jpg"
+              alt="vodafone logo"
+            />
+          </td>
+          <td>frontend developer</td>
+          <td>
+            <ul>
+              <li>developed user-friendly interfaces</li>
+              <li>collaborated with backend team</li>
+              <li>implemented responsive design</li>
+            </ul>
+          </td>
+          <td>2020 - 2021</td>
+        </tr>
+        <tr>
+          <td>Among Us</td>
+          <td>
+            <img
+              style="width: 100px"
+              src="/Images/among-us-logo.png"
+              alt="among us logo"
+            />
+          </td>
+          <td>junior web developer</td>
+          <td>
+            <ul>
+              <li>Maintained existing web applications</li>
+              <li>Assisted in debugging and troubleshooting</li>
+              <li>Participated in code reviews</li>
+            </ul>
+          </td>
+          <td>2019 - 2020</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="5">total experience: +5 years in web development</td>
+        </tr>
+      </tfoot>
+    </table>
+    <!-- Contact Information Section -->
+    <h2 style="color: #166ba3">Contact Me</h2>
+    <p>
+      Feel free to reach out to me using the form below . i'd love to hear from
+      you!
+    </p>
+    <table width="100%">
+      <tr>
+        <td>
+          <form>
+            <fieldset style="border: 1px black solid">
+              <legend>personal information</legend>
+              <label for="fname">first name :</label>
+              <input type="text" id="fname" name="lname" />
+              <label style="padding-left: 500px" for="lname">last name :</label>
+              <input type="text" name="lname" id="lname" />
+              <br />
+              <label for="email">email address :</label>
+              <input type="email" id="email" />
+              <label style="padding-left: 475px" for="phone"
+                >phone number :</label
+              >
+              <input type="tel" id="phone" name="phone" /><br />
+              <label for="meet">preferred meeting date :</label>
+              <input type="date" id="meet" />
+              <label for="cont-time" style="padding-left: 473px"
+                >best time to contact :</label
+              >
+              <input type="time" id="cont-time" />
+            </fieldset>
+          </form>
+        </td>
+      </tr>
+    </table>
+    <form>
+      <fieldset style="border: 1px black solid">
+        <legend>project details</legend>
+        <label for="proj-name">project name :</label>
+        <input type="text" id="proj-name" />
+        <label for="des" style="padding-left: 500px">
+          project description :</label
+        >
+        <textarea id="des"></textarea>
+        <p style="padding-left: 769px">services required :</p>
+        <p style="display: inline-block;" >budget range :</p>
+        <input style="margin-left: 675px;" type="checkbox" id="ui">
+        <label for="ui">UI/UX Design</label><br>
+        <input type="radio">
+        <label >under 5000$</label>
+        <input style="margin-left: 663px;" type="checkbox">
+        <label>frontend development</label><br>
+                <input type="radio">
+        <label >5000$ - 10000$</label>
+        <input style="margin-left: 643px;" type="checkbox">
+        <label>backend development</label><br>
+                <input type="radio">
+        <label >10000$ - 20000$</label>
+        <input style="margin-left: 636px;" type="checkbox">
+        <label>hosting & deployment</label><br>
+                <input type="radio">
+        <label >over 20000$</label>
+        <input style="margin-left: 665px;" type="checkbox">
+        <label>maintenance & support</label><br>
+        <label>how did you hear about me?</label>
+        <input type="select" list="sources" placeholder="select source" />
+        <datalist id="sources">
+          <option value="LinkedIn"></option>
+          <option value="GitHub"></option>
+          <option value="Twitter"></option>
+          <option value="Facebook"></option>
+          <option value="Instagram"></option>
+          <option value="Referral"></option>
+          <option value="Other"></option>
+      </fieldset>
+      <div style="margin-top: 20px">
+      <button style="background-color:#166ba3 ;color:white;" type="submit">Send me a message</button>
+      <button style="background-color: red; color: white;" type="reset">clear form</button>
+    </div>
+    </form>
+  </body>
+</html>
